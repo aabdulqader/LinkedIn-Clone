@@ -1,0 +1,25 @@
+.headerOption {
+  cursor: pointer;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-left: 10px;
+}
+.headerOption:hover {
+  color: black;
+}
+
+.headerOption__icon {
+  font-size: 28px !important;
+}
+.headerOption > h4 {
+  font-weight: normal;
+  font-size: 14px;
+}

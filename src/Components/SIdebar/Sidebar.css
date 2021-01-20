@@ -1,0 +1,103 @@
+.sidebar {
+  left: 0;
+  flex: 0.2;
+  margin-top: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: fit-content;
+  text-align: center;
+}
+.sidebar__avatar {
+  margin-bottom: 10px;
+  width: 70px !important;
+  height: 70px !important;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.sidebar__top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom: 10px;
+}
+.sidebar__top > img {
+  width: 100%;
+  height: 100px;
+  margin-bottom: -35px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+.sidebar__top > h2 {
+  text-decoration: underline;
+  font-size: 18px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar__stats {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.sidebar__stat {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar__stat > p {
+  color: rgb(70, 70, 70);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sidebar__statNumber {
+  font-weight: 800 !important;
+  color: #2b7aca !important;
+}
+
+.sidebar__bottom {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+}
+
+.sidebar__recentItem {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: bolder;
+  color: gray;
+  padding-left: 15px;
+}
+.sidebar__recentItem:hover {
+  background-color: rgb(228, 228, 228);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-decoration: underline;
+  color: #2b7aca;
+}

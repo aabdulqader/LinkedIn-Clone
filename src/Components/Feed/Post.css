@@ -1,0 +1,126 @@
+.post {
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.post__top {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post__topinfo {
+  float: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.post__info {
+  margin-left: 10px;
+  color: gray;
+}
+.post__info > h4 {
+  color: rgb(66, 66, 66);
+}
+.post__info > h4:hover {
+  color: rgb(94, 94, 94);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.post__info > .MuiSvgIcon-root {
+  font-size: 15px;
+}
+
+.post__avatar {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.post__topButton {
+  display: flex;
+  color: #2b7aca;
+  font-size: 14px;
+  border: 1px solid #2b7aca;
+  padding: 2px 5px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.post__topButton:hover {
+  background-color: #2b7aca4b;
+}
+
+.post > p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.post__options {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+}
+.post__option {
+  display: flex;
+  color: rgb(87, 87, 87);
+  margin-right: 20px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+.post__option:hover {
+  background-color: rgb(197, 197, 197);
+
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.post__option > p {
+  margin-left: 5px;
+}
+
+.post > span > img {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.post > span {
+  display: flex;
+  align-items: center;
+  color: rgb(97, 96, 96);
+  padding: 10px 15px;
+}
+.post > span > small {
+  margin-left: 10px;
+}
+.post > img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 500px;
+}
